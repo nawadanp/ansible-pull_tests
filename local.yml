@@ -1,5 +1,4 @@
-- hosts: localhost
-  tasks:
-      - name: Reload Nginx
-        service: name=nginx state=reloaded
+- tasks:
+    - name: Reload Nginx
+      service: name=nginx state=reloaded
 
