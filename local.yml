@@ -1,4 +1,4 @@
-- hosts: perso
+- hosts: localhost
   tasks:
       - name: Reload Nginx
         service: name=nginx state=reloaded
