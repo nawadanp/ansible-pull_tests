@@ -1,5 +1,5 @@
 - hosts: itself
-  sudo: False
+  sudo: True
   tasks:
       - name: Reload Nginx
         service: name=nginx state=reloaded
